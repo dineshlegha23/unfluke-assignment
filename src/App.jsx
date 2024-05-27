@@ -2,8 +2,9 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="max-w-[1200px]">
+    <div className="mx-auto h-[1000px]">
       <Navbar />
+      <hr />
     </div>
   );
 }
