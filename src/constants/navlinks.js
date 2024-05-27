@@ -4,7 +4,7 @@ export const links = [
   "Historical Chart",
   "Scanners",
   "Alerts",
-  "Basic Bascktest",
+  "Basic Backtest",
   "Advanced Backtest",
   "Pricing",
   "My Earnings",
