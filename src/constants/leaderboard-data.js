@@ -26,7 +26,8 @@ export const leaderboardLinks = [
     flex: 1,
     valueFormatter: (p) => (p.value === "false" ? "-" : p.value),
   },
-  { field: "Action", flex: 1 },
+  // { field: "Action", flex: 1 },
+  { headerName: "Action", valueGetter: (p) => "view" },
 ];
 
 // export const leaderboardData = [
