@@ -1,4 +1,5 @@
 import React from "react";
+import LeaderBoardTable from "./LeaderBoardTable";
 
 const LeaderBoard = () => {
   return (
@@ -21,6 +22,7 @@ const LeaderBoard = () => {
             </select>
           </div>
         </div>
+        <LeaderBoardTable />
       </div>
     </section>
   );
