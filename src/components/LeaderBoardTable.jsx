@@ -15,7 +15,7 @@ const LeaderBoardTable = () => {
         rowData={leaderboardData}
         columnDefs={leaderboardLinks}
         pagination={true}
-        paginationPageSizeSelector={[10, 20, 55]}
+        paginationPageSizeSelector={[10, 20, 30]}
         paginationPageSize={10}
       />
     </div>

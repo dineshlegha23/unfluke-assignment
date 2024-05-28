@@ -1,4 +1,5 @@
 import CustomButtonComponent from "../components/CustomButtonComponent";
+import Action from "../components/Action";
 // export const leaderboardLinks = [
 //   "Rank",
 //   "Name",
@@ -27,7 +28,7 @@ export const leaderboardLinks = [
     valueFormatter: (p) => (p.value === "false" ? "-" : p.value),
   },
   // { field: "Action", flex: 1 },
-  { headerName: "Action", valueGetter: (p) => "view" },
+  { field: "Action", flex: 0.8, cellRenderer: Action },
 ];
 
 // export const leaderboardData = [
